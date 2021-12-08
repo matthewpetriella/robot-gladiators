@@ -115,7 +115,7 @@ var endGame = function () {
     else {       
         window.alert("You've lost your robot in battle.");
     }
-    var playAgainConfirm = window.confirm("would you like to play again?");
+    var playAgainConfirm = window.confirm("Would you like to play again?");
 
     if (playAgainConfirm) {
         startGame();
